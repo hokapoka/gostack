@@ -1,7 +1,6 @@
 package gostack
 
 import(
-//	"time"
 )
 
 type QuestionsResult struct {
@@ -54,20 +53,6 @@ type Answer struct{
 	Community_owned bool
 	Title string
 
-}
-
-type BadgesResult struct {
-	Badges []Badge
-}
-
-type Badge struct{
-	Badge_id int
-	Rank string
-	Name string
-	Description string
-	Award_count int
-	Tag_base bool
-	Badges_recipients_url string
 }
 
 
