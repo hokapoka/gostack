@@ -26,6 +26,13 @@ Revision History
    of time.Time.  Without this all the Date / Time 
    properties have tobe precessed after the fact. 
 
+Example
+-------
+
+	An example that gets the latest questions & all 
+	the avaliable badges from the API is here : 
+
+	https://github.com/hokapoka/gostack/blob/master/example/test_stack.go
 
 Todo
 ----
